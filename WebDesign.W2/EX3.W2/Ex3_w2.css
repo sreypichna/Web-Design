@@ -1,0 +1,45 @@
+.body {
+    background-color: aquamarine;
+    width: 800px;
+    min-height: 570px;
+    margin: 10px auto;
+    padding: 30px 100px;
+}
+
+.box {
+    background-color: white;
+    color: black;
+    width: 560px;
+    height: 155px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+.box button {
+  align-self: flex-start;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 30px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  background: #008b8b;
+}
+
+.box:nth-child(1) button {
+  background: #008b8b;
+}
+
+.box:nth-child(2) button {
+  background: orange;
+}
+
+.box:nth-child(3) button {
+  background: purple;
+}
+
+

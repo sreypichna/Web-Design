@@ -1,0 +1,53 @@
+.BG{
+    background-color: #CE1126;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.Style{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    font-size: large;
+}
+
+.Highlight{
+    color: #CE1126;
+    font-weight: bold;
+}
+
+.buttonR{
+  background-color: red;
+  color: white;
+  border: 10px;
+  font-size: medium; 
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin-left: 0 auto;
+  cursor: pointer;
+  display: block;       /* Made button text smaller */
+}
+
+.buttonL {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;      /* Made buttons smaller to fit */
+  margin-right: 0 auto;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: medium;        /* Made button text smaller */
+  display: block;
+}
+
+button:hover {
+  background-color: #c2bcbc;
+  color: white;
+}

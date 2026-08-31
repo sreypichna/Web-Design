@@ -1,0 +1,81 @@
+body {
+  background-color: gray;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 60px;
+}
+.profile-card {
+  width: 310px;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+
+}
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid gray;
+}
+/* Name */
+.profile-card h2 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 5px;
+}
+.job {
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.stats {
+  padding: 15px 0;
+  margin-bottom: 20px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  text-align: center;
+}
+.group {
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+}
+
+.stats div {
+  display: inline-block;
+  width: 90px;
+  vertical-align: top;
+  text-align: center;
+}
+/* Bio */
+.bio {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.social {
+  margin: 20px 60px;
+}
+.social i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+button {
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  cursor: pointer;
+  display: block;
+
+}
+button:hover {
+  background-color: #666;
+  color: white;
+}
